@@ -9,9 +9,10 @@ def make_numbers(N):
         j = i
         
         if N%2 == 0:
-            j += 1
-        
-        ret.append(j * 2)
+            j += 2
+            print(j)
+            
+        ret.append(j * 3)
 
     return ret
 
