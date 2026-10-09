@@ -22,4 +22,17 @@ def make_numbers(N):
 
     return ret
 
-print(make_numbers(10))
+
+def super_cool_something(nums):
+    ret = 1
+    
+    for i in nums:
+        print(i)
+
+        if i%2==0:
+            ret *= i
+
+    return ret
+
+
+print(super_cool_something([10, 11, 20, 4]))
