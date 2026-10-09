@@ -23,8 +23,8 @@ def super_cool_something(nums):
     for i in nums:
         print(i)
 
-        if i==0:
-            ret *= i + 9
+        if i%3==0:
+            ret *= i-2
 
     return ret
 
